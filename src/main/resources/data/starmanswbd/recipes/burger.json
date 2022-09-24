@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#",
+        "B",
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:wheat"
+        },
+        "B": {
+            "item": "minecraft:beef"
+        }
+    },
+    "result": {
+        "item": "starmanswbd:burger",
+        "count": 1
+    }
+}

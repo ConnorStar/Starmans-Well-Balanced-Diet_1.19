@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smoking",
+    "ingredient": {
+        "item": "starmanswbd:burger"
+    },
+    "result": "starmanswbd:cooked_burger",
+    "experience": 0.35,
+    "cookingtime": 100
+}

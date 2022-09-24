@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "starmanswbd",
+  "version": "${version}",
+
+  "name": "Starman's Well-Balanced Diet",
+  "description": "Delivers super simple recipes and rewards a colorful plate.",
+  "authors": [
+    "Connor 'Starman' Quinn"
+  ],
+  "contact": {
+    "homepage": "https://twitter.com/ConnorQuothe",
+    "sources": ""
+  },
+
+  "license": "CC BY-NC-SA 3.0",
+  "icon": "assets/starmanswbd/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.starmans.wellbalanceddiet.StarmansWellBalancedDiet"
+    ]
+  },
+  "mixins": [
+    "starmanswbd.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
